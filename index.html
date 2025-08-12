@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree - Pohon Keluarga</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-sitemap"></i>
+                <h1>Family Tree</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item">
+                    <i class="fas fa-home"></i>
+                    <span>Beranda</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-users"></i>
+                    <span>Keluarga</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Tentang</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Description Section -->
+        <section class="description-section">
+            <div class="description-content">
+                <h2>Selamat Datang di Aplikasi Pohon Keluarga</h2>
+                <p class="description-text">
+                    Aplikasi ini memungkinkan Anda untuk membuat dan mengelola pohon keluarga secara interaktif. 
+                    Anda dapat menambahkan anggota keluarga, mengedit informasi, dan melihat hubungan keluarga 
+                    dalam visualisasi yang mudah dipahami.
+                    
+                </p>
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-plus-circle"></i>
+                        <span>Tambah anggota keluarga</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-edit"></i>
+                        <span>Edit informasi dengan mudah</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-eye"></i>
+                        <span>Lihat detail lengkap</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-save"></i>
+                        <span>Simpan dan muat data</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tree Canvas Section -->
+        <section class="tree-section">
+            <div class="tree-header">
+                <h3>Pohon Keluarga Anda</h3>
+                <p class="tree-instruction">Klik pada node untuk berinteraksi dan gunakan tombol kontrol di bawah untuk mengelola pohon keluarga</p>
+            </div>
+            <div class="tree-container">
+                <div class="tree-canvas" id="tree">
+                    <div class="tree-placeholder">
+                        <i class="fas fa-sitemap tree-icon"></i>
+                        <p>Pohon keluarga Anda akan ditampilkan di sini</p>
+                        <p class="placeholder-subtitle">Mulai dengan menambahkan anggota keluarga pertama</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h4>Family Tree Application</h4>
+                <p>Versi 2.0 - Aplikasi Pohon Keluarga Modern</p>
+            </div>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Terms of Service</a>
+                <a href="#" class="footer-link">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts will be added here -->
+    <script src="familytree.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
